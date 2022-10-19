@@ -1,0 +1,325 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(./fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+@media (max-width: 350px) {
+  header {
+    width: 100%;
+  }
+  .header__wrap {
+    display: none;
+  }
+  .container {
+    max-width: 350px;
+  }
+  .header__mobile {
+    margin: 0;
+    display: block;
+    padding-top: 2%;
+  }
+  .header__mobile__wrap {
+    display: flex;
+  }
+  .header__mobile__burger {
+    margin-top: 3%;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .header__mobile__text {
+    margin-left: 10%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #2F3035;
+    margin-top: 4%;
+  }
+  .header__mobile .header__right {
+    margin-top: 4%;
+    margin-left: 3%;
+    right: 0;
+  }
+  .Cycles__nav {
+    display: none;
+  }
+  .additionaly__nav {
+    margin-left: 3.5%;
+  }
+  .jetski__category__wrap__heading h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 3.5%;
+  }
+  .jetski__category__wrap__heading__left__and__right {
+    flex-direction: column-reverse;
+  }
+  .jetski__category__wrap__heading__left {
+    margin: 0;
+    margin-left: 3.5%;
+    padding-top: 26px;
+  }
+  .jetski__category__wrap__heading__left__link:last-child {
+    display: none;
+  }
+  .jetski__category__wrap__heading__left__link:nth-child(3) {
+    display: none;
+  }
+  .jetski__category__wrap__heading__right {
+    border-bottom: 0.5px solid #C4C4C4;
+    border-top: 0.5px solid #C4C4C4;
+    margin: 0;
+  }
+  .jetski__category__wrap__heading__right__popsort {
+    border: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 17px;
+    padding-bottom: 14px;
+    margin-left: 3.5%;
+  }
+  .jetski__category__wrap__heading__right__popsort img {
+    display: none;
+  }
+  .jetski__category__wrap__heading__right__popsort__text {
+    margin-left: 0.5em;
+  }
+  .jetski__category__wrap__heading__right__popsort::before {
+    content: "";
+    background-image: url(./img/media/Category\ jetski\ arrows.svg);
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .jetski__category__wrap__heading__right img:first-child {
+    margin-left: 18px;
+  }
+  .jetski__category__wrap__main {
+    display: block;
+  }
+  .jetski__category__wrap__main__filter {
+    display: none;
+  }
+  .jetski__category__wrap__main__cardbox article {
+    width: 80%;
+    margin-left: 25px;
+    margin-bottom: 40px;
+  }
+  .jetski__category__wrap__main__cardbox article:not(:first-child) {
+    display: none;
+  }
+  .jetski__category__wrap__main__cardbox article:nth-child(2) {
+    display: block;
+  }
+  .jetski__category__wrap__main__cardbox article:nth-child(3) {
+    display: block;
+    margin-bottom: 0;
+  }
+  .jetski__category__wrap__main__buttonShowElseMobile {
+    display: block;
+    margin-top: 40px;
+    padding: 17px 43px 15px 43px;
+    display: flex;
+    justify-content: center;
+    background: #F0F0F4;
+    width: 50%;
+  }
+  .jetski__category__wrap__main__buttonShowElseMobile a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2F3035;
+  }
+  .jetski__category__wrap__numberPanel {
+    padding-bottom: 0;
+    margin-left: 0;
+  }
+  .jetski__category__wrap__numberPanel a {
+    margin-top: 40px;
+  }
+  .additionalProducts {
+    padding-bottom: 600px;
+    padding-top: 51px;
+    display: block;
+  }
+  .additionalProducts__wrap .absolute__btn {
+    display: none;
+  }
+  .additionalProducts__wrap__heading {
+    text-align: center;
+    max-width: 300px;
+    line-height: 30px;
+  }
+  .additionalProducts__wrap__nav {
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+  .additionalProducts__wrap__nav a:nth-child(4) {
+    display: none;
+  }
+  .additionalProducts__wrap__nav a:nth-child(5) {
+    display: none;
+  }
+  .additionalProducts__wrap__nav a:nth-child(6) {
+    display: none;
+  }
+  .additionalProducts__wrap__itembox {
+    margin-left: 15%;
+  }
+  .additionalProducts__wrap__itembox article {
+    width: 80%;
+  }
+  .additionalProducts__wrap__itembox article:not(:first-child) {
+    display: none;
+  }
+  .additionalProducts__wrap__itembox__item1 .item1__link {
+    margin-left: 10%;
+  }
+  .additionalProducts__wrap .additionalProducts__wrap__buttonMobile {
+    margin-left: 15%;
+    margin-top: 35px;
+    padding: 17px 43px 15px 43px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background: #F0F0F4;
+  }
+  .additionalProducts__wrap .additionalProducts__wrap__buttonMobile a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2F3035;
+  }
+  .additionalProducts__wrap .switchCirclesMobile {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30%;
+  }
+  .additionalProducts__wrap .switchCirclesMobile__circle {
+    border-radius: 100%;
+    background-color: #c4c4c4;
+    height: 14px;
+    width: 14px;
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  .additionalProducts__wrap .switchCirclesMobile__circle:hover {
+    background-color: #1C62CD;
+    transition: 1s;
+  }
+  footer {
+    background: none;
+  }
+  footer .footer__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer__wrap .footer__content__left {
+    margin: 0;
+    background: #F9F9FC;
+    padding-bottom: 0;
+  }
+  footer .footer__wrap .footer__content__left h3 {
+    text-align: center;
+    padding-right: 0;
+  }
+  footer .footer__wrap .footer__content__left form {
+    padding: 0 15px;
+  }
+  footer .footer__wrap .footer__content__left form input::-moz-placeholder {
+    color: #C4C4C4;
+  }
+  footer .footer__wrap .footer__content__left form input:-ms-input-placeholder {
+    color: #C4C4C4;
+  }
+  footer .footer__wrap .footer__content__left form input::placeholder {
+    color: #C4C4C4;
+  }
+  footer .footer__wrap .footer__content__left form .mailInput {
+    padding: 8px 30px 8px 12px;
+  }
+  footer .footer__wrap .footer__content__left form .mailLink {
+    font-weight: 400;
+    padding-left: 10px;
+  }
+  footer .footer__wrap .footer__content__ulLeft {
+    background: #F9F9FC;
+    margin: 0;
+  }
+  footer .footer__wrap .footer__content__ulLeft .footer__left__list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7F7F7F;
+    padding-left: 16px;
+    border-top: 2px solid #F0F0F4;
+    padding-top: 16px;
+    border-bottom: 2px solid #F0F0F4;
+    padding-bottom: 16px;
+    margin-top: 41px;
+  }
+  footer .footer__wrap .footer__content__ulLeft .footer__left__list .footer__left__link {
+    display: none;
+  }
+  footer .footer__wrap .footer__content__ulLeft .footer__left__list::after {
+    content: "";
+    background-image: url(./img/media/Back.svg);
+    width: 10px;
+    height: 15px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 63%;
+  }
+  footer .footer__wrap .footer__content__ulLeft .footer__left__span {
+    margin: 0;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  }
+  footer .footer__wrap .footer__content__ulRight {
+    background: #F9F9FC;
+    margin: 0;
+  }
+  footer .footer__wrap .footer__content__ulRight .footer__right__list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7F7F7F;
+    padding-top: 0;
+    padding-left: 16px;
+    margin-top: 16px;
+    border-bottom: 2px solid #F0F0F4;
+    padding-bottom: 16px;
+  }
+  footer .footer__wrap .footer__content__ulRight .footer__right__list .footer__right__link {
+    display: none;
+  }
+  footer .footer__wrap .footer__content__ulRight .footer__right__list::after {
+    content: "";
+    background-image: url(./img/media/Back.svg);
+    width: 10px;
+    height: 15px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 52%;
+  }
+  footer .footer__wrap .footer__content__ulRight .footer__right__span {
+    margin: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+  }
+  footer .footer__wrap .footer__content__right {
+    padding: 47px 0 189px 0;
+  }
+}/*# sourceMappingURL=categoryMediaStyle.css.map */
