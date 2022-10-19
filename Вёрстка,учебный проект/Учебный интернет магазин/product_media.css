@@ -1,0 +1,105 @@
+@media(max-width:1139px){
+    .card_box_2__wrap{
+        gap: 16px;
+        justify-content: center;
+    }
+    .card_box_card:last-child{
+        display: none;
+    }
+}
+
+
+
+
+@media(max-width:768px){
+    .slider_pics{
+        width: 100%;
+        object-fit: cover;
+    }
+    .about__wrap {
+        margin:0
+    }
+    .about_bottom hr{
+        width:100%;
+        object-fit: cover;
+    }
+    .card_box_2__wrap{
+        gap: 16px;
+        justify-content: center;
+    }
+    .card_box_card:last-child{
+        display: none;
+    }
+    .footer_top {
+        height: 693px;
+    }
+    .footer__wrap {               
+          flex-direction: column;
+    }
+    .footer_left_top {
+        margin-top: 53px;
+    }
+    .footer_img {
+        margin-left: 32%;
+    }
+    .footer_right_top {
+        padding: 0;
+        margin-top: 48px;
+    }
+}
+
+@media(max-width:470px){
+    .about_bottom_menu span{
+        margin: 0;
+    }
+    .about_bottom_menu img {
+        margin:0
+    }
+}
+
+@media(max-width:375px){
+    .newarrivals__wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 25%;
+    }
+    .newarrivals_left {
+        padding: 10% 0 0 0;
+    }
+    .newarrivals_right {
+        padding: 0 0 15% 0;
+        margin-top: 5%;
+    }
+    .footer_top {
+        height: 550px;
+      }
+      .footer_bottom__wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .footer_img {
+        margin-left: 35%;
+      }
+      .footer_bottom_left {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+        margin-top: 40px;
+        margin-bottom: 9px;
+        padding: 0;
+      }
+      .footer_bottom_right {
+        margin-top: 20px;
+      }
+}
+
+
